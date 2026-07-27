@@ -6,7 +6,7 @@ StatScribe is a web application designed to bridge the gap between raw statistic
 **Target Audience:** M.Phil/Ph.D. scholars, academic researchers, and freelance data analysts.
 
 ## b. Live Application
-**URL:** [LINK_TO_YOUR_DEPLOYED_APP]
+**URL:** https://statscribe-app-tbowwyp4zxzwqcnb5wjjtj.streamlit.app/
 
 ## c. Features List
 *   **Methodology Selection:** Dropdown menus supporting 7 different parametric and non-parametric statistical tests.
