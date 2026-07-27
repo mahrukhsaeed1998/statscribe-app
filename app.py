@@ -57,7 +57,7 @@ if submit_button:
             try:
                 # Configure the API
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-2.5-flash')
+                model = genai.GenerativeModel('gemini-3.6-flash')
                 
                 # The AI Instructions (System Prompt)
                 system_prompt = f"""
