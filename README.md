@@ -21,15 +21,22 @@ StatScribe is a web application designed to bridge the gap between raw statistic
 
 ## e. Tech Stack
 *   **Frontend & Backend Interface:** Python with Streamlit
-*   **AI Model:** Google Gemini 1.5 Flash (via `google-generativeai` SDK)
+*   **AI Model:** AI Model: Google Gemini 3.6 Flash (via `google-generativeai` SDK)
 *   **Hosting & Deployment:** Streamlit Community Cloud linked to GitHub
 
 ## f. Screenshots
-*[Upload 3 screenshots here: The empty form, the API key sidebar, and the final generated AI output]*
+**1. Initial Interface**
+![Empty Form](screenshot1.png)
+
+**2. Form Input and API Key**
+![Filled Form](screenshot2.png)
+
+**3. AI-Generated APA Output**
+![Generated Output](screenshot3.png)
 
 ## g. How to Run Locally
-1. Clone the repository: `git clone [YOUR_GITHUB_REPO_URL]`
-2. Navigate into the directory: `cd [YOUR_REPO_NAME]`
+1. Clone the repository: `git clone https://github.com/mahrukhsaeed1998/statscribe-app.git`
+2. Navigate into the directory: `cd statscribe-app`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the app: `streamlit run app.py`
 5. Get a free Gemini API key from Google AI Studio and paste it into the app sidebar.
